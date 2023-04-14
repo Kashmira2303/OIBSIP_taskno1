@@ -1,0 +1,84 @@
+body
+{
+    height: 100%;
+    width: 100%;
+}
+h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50px;
+    margin-top: 2px;
+    margin-bottom:0px ;
+}
+.container
+{
+    width: fit-content;
+    border: 2px solid black;
+    /* background-color: rgba(16, 15, 15, 0.728); */
+    border-radius: 8px;
+    padding: 12px 12px;
+    box-shadow: 5px 5px grey;
+}
+.button
+{
+    width: 76px;
+    padding:20px ;
+    margin: 0 3px;
+    /* border: 2px solid rgb(235, 224, 224); */
+    background-color: rgb(117, 7, 29);
+    color: rgb(218, 218, 39);
+    text-shadow: 2px 1.2px rgb(111, 45, 4);
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2.1rem;
+    box-shadow: 2px 4px rgb(37, 35, 35);
+}
+.input-display
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+background-color: rgb(15, 15, 15);
+border: 2px solid black;
+border-radius: 13px;
+padding: 12px 5px;
+/* box-shadow: 5px 5px grey; */
+}
+.btn-
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 350px;
+    background-color: rgb(117, 7, 29);
+ border: 2px solid black;
+ border-radius: 23px;
+ box-shadow: 5px 5px grey;
+}
+.c-btn,.eq-btn
+{
+    width: 150px;
+    color: black;
+    background-color: rgb(159, 201, 237);
+}
+.row
+{
+    margin:5px;
+}
+.row input
+{
+    width: 340px;
+    height: 40px;
+    font-size: 1.9rem;
+    margin: 0;
+    padding: 10px 0px ;
+    border: 2px solid rgb(245, 242, 242);
+    border-radius: 8px;
+    background-color: rgb(83, 127, 143);
+}
